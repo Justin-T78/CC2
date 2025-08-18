@@ -1,0 +1,14 @@
+public class ProductOfArray {
+    static int product(int[] ar) {
+        int result = 1;
+        for (int val : ar) {
+            result *= val;
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int[] ar = {1, 2, 3, 4, 5};
+        System.out.println("Product of all elements = " + product(ar));
+    }
+}
